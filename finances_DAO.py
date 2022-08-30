@@ -14,7 +14,7 @@ class Finances_DAO():
         self.__finances = finances
 
     def conectar(self):
-        self.__cnx = mysql.connector.connect(host='127.0.0.1', database='barbearia', user='root', password='Cftl49fluzao#')
+        self.__cnx = mysql.connector.connect(host='127.0.0.1', database='barbearia', user='root', password='**********')
         self.__cursor = self.__cnx.cursor()
 
     def fecharconexao(self):
